@@ -1,0 +1,1 @@
+This is a file containing all internet speed measurments.We recomend that you do not make any changes on this file
