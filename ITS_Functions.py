@@ -41,11 +41,11 @@ def internetspeed():
     Speed_History.close()
 
 
-
-    next=(input("Do you want to display your history?(Y/N)")).lower()
     #prints the text file containing the history log
+    next=(input("Do you want to display your history?(Y/N)")).lower()
     while next!="y" and next!="n":
         next=(input("Please select 'Y' for yes or 'N' for no .Do you want to display your history?(Y/N)")).lower()
+        
     if next =="y":
 
         Speed_History=open('Speed_History.txt',"r") 
