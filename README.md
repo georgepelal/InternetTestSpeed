@@ -7,4 +7,4 @@ Shows your IP,download and upload speed and saves them in a history .txt file
 
 After that you will be able to directly run ITS_Main.py
 
-note:Do not make any changes of any of these files or errors might appear
+note:Do not make any changes of any of these files or errors may appear
