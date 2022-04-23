@@ -42,9 +42,11 @@ def internetspeed():
 
 
 
-    next=input("Do you want to display your history?(Y/N)")
+    next=(input("Do you want to display your history?(Y/N)")).lower()
     #prints the text file containing the history log
-    if next.lower() =="y":
+    while next!="y" and next!="n":
+        next=(input("Please select 'Y' for yes or 'N' for no .Do you want to display your history?(Y/N)")).lower()
+    if next =="y":
 
         Speed_History=open('Speed_History.txt',"r") 
         #creates a list that each component is a line of the text file
@@ -70,9 +72,4 @@ def internetspeed():
                 
             cprint(f"{hist_lines[i]}",color)
 
-        Speed_History.close()
-
-        
-
-
-    
+        Speed_History.close()   
