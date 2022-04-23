@@ -5,6 +5,6 @@ Shows your IP,download and upload speed and saves them in a history .txt file
 
 *( pip install termcolor , pip install speedtest-cli )
 
-After that you will be able to directly run ITS_Main.py
+After that you will be able to directly run ITS_Main.py (running the setup file will also work,you will have to just wait a litle more time)
 
 note:Do not make any changes of any of these files or errors may appear
