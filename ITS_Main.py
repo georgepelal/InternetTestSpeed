@@ -21,7 +21,7 @@ while next2=="r":
 
 
 
-                # CODE FOR THE .bat  FILE(converted to exe)
+                # CODE FOR THE .bat FILE
   #@echo off
   #pip install termcolor
   #pip install speedtest-cli
