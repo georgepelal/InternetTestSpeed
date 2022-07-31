@@ -27,7 +27,7 @@ def internetspeed():
     downspeed=round((wifi.download() /1000000),2)
     cprint(f"                                        Your internet Download Speed is: {downspeed} Mb/s",'green')
 
-    #prints the upload speed
+    #print the upload speed
     upspeed=round((wifi.upload() / 1000000),2)
     cprint(f"                                         Your internet Upload Speed is: {upspeed} Mb/s","magenta")
 
