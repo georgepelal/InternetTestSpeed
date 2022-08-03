@@ -23,7 +23,7 @@ def internetspeed():
 
     wifi  = speedtest.Speedtest()
 
-    #prints the download speed
+    #print the download speed
     downspeed=round((wifi.download() /1000000),2)
     cprint(f"                                        Your internet Download Speed is: {downspeed} Mb/s",'green')
 
